@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+	<title>Representative Search</title>
+</head>
+<body>
+	<h1>Find Your Representative</h1>
+	
+	<div id="lookup-area">
+		<p>Enter your ZIP code to find your representatives</p>
+		<form action="" id="rep-lookup">
+			<div>
+				<label for="txt-zip">ZIP code:</label>
+				<input type="text" id="txt-zip" name="zip" placeholder="Your ZIP code" required />
+			</div>
+			<div>
+				<input type="submit" id="btn-lookup" value="Look up my reps" />
+			</div>
+		</form>
+	</div>
+	
+	<div id="rep-lookup-results"></div>
+	
+<script src="represent.js"></script>
+</body>
+</html>
